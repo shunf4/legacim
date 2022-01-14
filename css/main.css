@@ -18,3 +18,7 @@
 .browserupgrade a:hover {
   text-decoration: underline;
 }
+
+p:hover {
+  color: red;
+}

@@ -506,6 +506,10 @@
 				}
 			}
 		}
+		// Fallback: chibi.js https://github.com/kylebarrow/chibi
+		selectorMethod = win['$'];
+		init();
+		return;
 	});
 
 	/*!
