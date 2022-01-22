@@ -1,7 +1,7 @@
 legacim
 ===
 
-legasim is a frontend scaffold for simple web pages (or web apps) that run even in IE6.
+legacim is a frontend scaffold for simple web pages (or web apps) that run even in IE6.
 
 Only very basic CSS and JavaScript syntax is recommended in this scaffold (see selectivizr2 and chibi 's description), or you may lose IE6 support.
 
