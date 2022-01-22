@@ -1,0 +1,47 @@
+div.wpd {
+	display: inline;
+}
+
+.pulldown {
+	padding-top: 25px;
+	z-index: -999;
+}
+
+/* IE6 width fix */
+.table,
+.c12 {
+  width: 99.8%;
+}
+.c11 {
+  width: 91.47%;
+}
+.c10 {
+  width: 83.16%;
+}
+.c9 {
+  width: 74.85%;
+}
+.c8 {
+  width: 66.52%;
+}
+.c7 {
+  width: 58.21%;
+}
+.c6 {
+  width: 49.9%;
+}
+.c5 {
+  width: 41.57%;
+}
+.c4 {
+  width: 33.26%;
+}
+.c3 {
+  width: 24.95%;
+}
+.c2 {
+  width: 16.62%;
+}
+.c1 {
+  width: 8.31%;
+}

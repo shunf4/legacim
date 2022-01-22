@@ -7,17 +7,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Title</title>
   <link rel="stylesheet" href="css/min.src.css">
+  <link rel="stylesheet" href="css/min-navbar-plugin.css">
+  <link rel="stylesheet" href="css/min-bootstrap-plugin.css">
+  <link rel="stylesheet" href="css/min-plus-plugin.css">
   <link rel="stylesheet" href="css/main.css">
 
   <!--[if lt IE 9]>
     <script src="js/polyfill/html5shiv-printshiv.js"></script>
+    <link rel="stylesheet" href="css/min-navbar-plugin.fix-ie6.css">
   <![endif]-->
+
 </head>
 
 <body>
   <!--[if IE]>
-    <div class="browserupgrade"><p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p></div>
+    <div class="browserupgrade"><p>You are using an <strong>outdated</strong> browser. Please <a href="http://bestvpn.org/outdatedbrowser/en">upgrade your browser</a> to improve your experience and security.</p></div>
   <![endif]-->
+
+  <nav class="navbar-default navbar-static-top nav" role="navigation">
+    <div class="container"><a class="pagename current" href="#">Project name</a><a href="#">Home</a><a
+        href="#about">About</a><a href="#contact">Contact</a>
+      <div class="wpd">Dropdown <div class="pulldown">
+          <ul class="">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else</a></li>
+            <hr class="">
+            <h5 class="">Nav header</h5>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more link</a></li>
+          </ul>
+        </div>
+      </div><a href="../navbar/">Default</a><a href="./">Static top</a><a href="../navbar-fixed-top/">Fixed top</a>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
 
   <nav class="nav" tabindex="-1" onclick="this.focus()">
     <div class="container">
@@ -30,11 +54,87 @@
   <button class="btn-close btn btn-sm">×</button>
 
   <div class="container">
+
+    <style>
+      .grid-demo .dark {
+        background-color: rgb(172, 172, 172);
+      }
+
+      .grid-demo .light {
+        background-color: rgb(223, 223, 223);
+      }
+
+      .grid-demo .col {
+        text-align: center;
+      }
+
+      .grid-demo .row {
+        line-height: 2em;
+      }
+    </style>
+
     <div class="row">
       <div class="col c4">
         <div>
-          Left Bar
+          <div class="msg">
+            <strong>Alert headline!</strong>
+            Message text
+          </div>
         </div>
+
+        <div class="grid-demo">
+          <div class="row">
+            <div class="col dark c12">12</div>
+          </div>
+          <div class="row">
+            <div class="col dark c11">11</div>
+            <div class="col light c1">1</div>
+          </div>
+          <div class="row">
+            <div class="col dark c10">10</div>
+            <div class="col light c2">2</div>
+          </div>
+          <div class="row">
+            <div class="col dark c9">9</div>
+            <div class="col light c3">3</div>
+          </div>
+          <div class="row">
+            <div class="col dark c8">8</div>
+            <div class="col light c4">4</div>
+          </div>
+          <div class="row">
+            <div class="col dark c7">7</div>
+            <div class="col light c5">5</div>
+          </div>
+          <div class="row">
+            <div class="col dark c6">6</div>
+            <div class="col light c6">6</div>
+          </div>
+          <div class="row">
+            <div class="col dark c5">5</div>
+            <div class="col light c7">7</div>
+          </div>
+          <div class="row">
+            <div class="col dark c4">4</div>
+            <div class="col light c8">8</div>
+          </div>
+          <div class="row">
+            <div class="col dark c3">3</div>
+            <div class="col light c9">9</div>
+          </div>
+          <div class="row">
+            <div class="col dark c2">2</div>
+            <div class="col light c10">10</div>
+          </div>
+          <div class="row">
+            <div class="col dark c1">1</div>
+            <div class="col light c11">11</div>
+          </div>
+          <div class="row">
+            <div class="col light c12">12</div>
+          </div>
+        </div>
+
       </div>
 
       <div class="col c8">
@@ -89,7 +189,6 @@
 
     <div class="hero">
       <h1>Example</h1>
-      <p>You can view the source of this page and copy it to get a quick start on a project with Min!</p>
       <p>You can view the source of this page and copy it to get a quick start on a project with Min!</p>
       <a class="btn btn-b" href="http://owenversteeg.com">Go places!</a>
     </div>

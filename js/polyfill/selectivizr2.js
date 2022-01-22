@@ -506,7 +506,7 @@
 				}
 			}
 		}
-		// Fallback: chibi.js https://github.com/kylebarrow/chibi
+		// shunf4 fix: fallback: chibi.js https://github.com/kylebarrow/chibi
 		selectorMethod = win['$'];
 		init();
 		return;
